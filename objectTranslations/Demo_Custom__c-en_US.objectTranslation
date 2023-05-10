@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demo Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demo Objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Field One --></label>
+        <name>Field_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Two --></label>
+        <name>Field_Two__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- field 5 --></label>
+        <name>field_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- field 6 --></label>
+        <name>field_6__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter Field two if Field one is checked. --></errorMessage>
+        <name>DemoValidationRuleOne</name>
+    </validationRules>
+</CustomObjectTranslation>
